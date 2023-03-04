@@ -1,0 +1,20 @@
+.skills{
+    border: 1px solid;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.skillsElements{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.title{
+
+}
