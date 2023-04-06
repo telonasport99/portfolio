@@ -1,0 +1,60 @@
+@import "src/common/styles/variables";
+
+.work{
+    width: 450px;
+    background: $bgSecondColor;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .image{
+        position: relative;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        &::before{
+            position: absolute;
+            content: '';
+            background-color: black;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+
+        }
+        .viewBtn{
+            position: relative;
+            background-color: cadetblue;
+            padding: 10px 20px;
+            z-index: 1;
+        }
+    }
+    .worksInfo{
+        padding: 25px 20px;
+        .workTitle{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            line-height: 1.2;
+            color: $textColor;
+        }
+        .description{
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            font-weight: 400;
+            font-size: 12px;
+            color: $textColor;
+        }
+    }
+
+}
+
+
+
+
+
+

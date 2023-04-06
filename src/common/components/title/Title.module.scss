@@ -1,0 +1,31 @@
+@import "src/common/styles/variables";
+
+.title{
+    font-weight: 300;
+    font-size: 36px;
+    margin: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $textColor;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+&::after{
+    content: '';
+    position: absolute;
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+    title h2{
+        margin: 0 0 30px;
+
+    }
+}
+
+
+
+
+

@@ -1,6 +1,5 @@
 .skills{
     border: 1px solid;
-    height: 100vh;
     background-color: darkgray;
     display: flex;
     flex-direction: column;

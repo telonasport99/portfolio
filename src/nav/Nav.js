@@ -1,12 +1,15 @@
 import React from 'react';
-import style from './Header.module.css'
+import style from './Nav.module.css'
 
-const Header = () => {
+const Nav = () => {
     return (
-        <div className={style.header}>
-            
+        <div className={style.nav}>
+            <a href="">Main</a>
+            <a href="">Skills</a>
+            <a href="">Projects</a>
+            <a href="">Contacts</a>
         </div>
     );
 };
 
-export default Header;
+export default Nav;

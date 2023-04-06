@@ -1,0 +1,16 @@
+.skill{
+    width: 250px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.description{
+
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    background-color: darksalmon;
+}
